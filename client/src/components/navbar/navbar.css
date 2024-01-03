@@ -1,0 +1,59 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+.navItems {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: row;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+}
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+.modal {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  z-index: 1;
+  width: 100px;
+}
+
+.modal button {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+}
